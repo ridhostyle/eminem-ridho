@@ -1,0 +1,154 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  margin: 0; /* Tambahkan margin di sini */
+}
+
+.home-home {
+  width: 100%;
+  height: 828px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+  margin: 0%; /* Tambahkan margin di sini */
+}
+
+.home-image1 {
+  overflow-x: hidden;
+  width: 100%;
+  height: 820px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.home-logo1 {
+  top: 34px;
+  left: 680px;
+  width: 175px;
+  height: 117px;
+  position: absolute;
+}
+
+.home-image32 {
+  top: 753px;
+  left: 1367px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+
+.home-image33 {
+  top: 753px;
+  left: 1288px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+
+.home-image34 {
+  top: 753px;
+  left: 23px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.home-image35 {
+  top: 753px;
+  left: 1209px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+
+.home-image36 {
+  top: 753px;
+  left: 102px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+
+.home-image37 {
+  top: 753px;
+  left: 181px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+
+.home-text {
+  top: 773px;
+  left: 641px;
+  color: rgba(255, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+
+.home-text2 {
+  top: 773px;
+  left: 892px;
+  color: rgba(255, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+
+.home-text7 {
+  top: 773px;
+  left: 319px;
+  color: rgba(255, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+
+.home-image38 {
+  top: 34px;
+  left: 1400px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.home-image39 {
+  top: 34px;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}

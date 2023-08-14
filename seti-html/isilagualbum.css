@@ -1,0 +1,202 @@
+.isilagualbum-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.isilagualbum-isilagualbum {
+  width: 100%;
+  height: 4558px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 1);
+}
+.isilagualbum-rectangle1 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+}
+.isilagualbum-image39 {
+  top: 48px;
+  left: 68px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.isilagualbum-image40 {
+  top: 373px;
+  left: 43px;
+  width: 175px;
+  height: 173px;
+  position: absolute;
+}
+.isilagualbum-text {
+  top: 398px;
+  left: 228px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: justified;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.isilagualbum-text001 {
+  font-weight: 700;
+}
+.isilagualbum-text007 {
+  font-weight: 400;
+}
+.isilagualbum-text015 {
+  top: 594px;
+  left: 34px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Bold;
+  text-align: justified;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.isilagualbum-line15 {
+  top: 173px;
+  left: 0px;
+  width: 1440px;
+  height: 1px;
+  position: absolute;
+}
+.isilagualbum-line16 {
+  top: 243px;
+  left: 0px;
+  width: 1440px;
+  height: 1px;
+  position: absolute;
+}
+.isilagualbum-text017 {
+  top: 190px;
+  left: 675px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Bold;
+  text-align: justified;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.isilagualbum-image41 {
+  top: 4448px;
+  left: 529.50048828125px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+}
+.isilagualbum-image42 {
+  top: 4448px;
+  left: 441.50048828125px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.isilagualbum-image43 {
+  top: 4448px;
+  left: 353.50048828125px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.isilagualbum-image44 {
+  top: 4448px;
+  left: 265.50048828125px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.isilagualbum-image45 {
+  top: 4448px;
+  left: 177.50048828125px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.isilagualbum-image401 {
+  top: 4448px;
+  left: 89.50048828125px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.isilagualbum-text297 {
+  top: 4456px;
+  left: 793.50048828125px;
+  color: rgba(255, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.isilagualbum-text299 {
+  top: 4456px;
+  left: 1042.50048828125px;
+  color: rgba(255, 0, 0, 1);
+  width: 179px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.isilagualbum-text304 {
+  top: 4456px;
+  left: 1241.50048828125px;
+  color: rgba(255, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.isilagualbum-logo1 {
+  top: 23px;
+  left: 645px;
+  width: 150px;
+  height: 100px;
+  position: absolute;
+}

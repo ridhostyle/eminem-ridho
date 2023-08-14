@@ -1,0 +1,238 @@
+.biography-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.biography-biography {
+  width: 100%;
+  height: 4954px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 1);
+}
+.biography-group5 {
+  top: 294px;
+  left: 919px;
+  width: 472px;
+  height: 1554px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.biography-text {
+  color: rgba(255, 255, 255, 1);
+  width: 454px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: justified;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.biography-image6 {
+  top: 73px;
+  left: 77px;
+  width: 300px;
+  height: 469px;
+  position: absolute;
+}
+.biography-text002 {
+  top: 569px;
+  left: 22px;
+  color: rgba(255, 255, 255, 1);
+  width: 450px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.biography-group3 {
+  top: 294px;
+  left: 68px;
+  width: 789px;
+  height: 4518px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.biography-text109 {
+  color: rgba(255, 0, 0, 1);
+  width: 789px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: justified;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.biography-text152 {
+  text-decoration: UNDERLINE;
+}
+.biography-image41 {
+  top: 4869px;
+  left: 388px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.biography-image42 {
+  top: 4869px;
+  left: 324px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.biography-image43 {
+  top: 4869px;
+  left: 260px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.biography-image44 {
+  top: 4869px;
+  left: 196px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.biography-image45 {
+  top: 4869px;
+  left: 132px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.biography-image40 {
+  top: 4869px;
+  left: 68px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.biography-text154 {
+  top: 4877px;
+  left: 799px;
+  color: rgba(255, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.biography-text156 {
+  top: 4877px;
+  left: 1048px;
+  color: rgba(255, 0, 0, 1);
+  width: 179px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.biography-text161 {
+  top: 4877px;
+  left: 1247px;
+  color: rgba(255, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.biography-line13 {
+  top: 164px;
+  left: -1px;
+  width: 1440px;
+  height: 1px;
+  position: absolute;
+}
+.biography-text163 {
+  top: 173px;
+  left: 644px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Bold;
+  text-align: justified;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.biography-line14 {
+  top: 217px;
+  left: 0px;
+  width: 1440px;
+  height: 1px;
+  position: absolute;
+}
+.biography-rectangle3 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+}
+.biography-logo1 {
+  top: 24px;
+  left: 645px;
+  width: 150px;
+  height: 100px;
+  position: absolute;
+}
+.biography-image39 {
+  top: 45px;
+  left: 43px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.text {
+  text-align: justify;
+}

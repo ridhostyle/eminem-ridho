@@ -1,0 +1,338 @@
+.lagudan-lirik-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.lagudan-lirik-lagudan-lirik {
+  width: 100%;
+  height: 6592px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 1);
+}
+.lagudan-lirik-rectangle1 {
+  top: 0px;
+  left: 0px;
+  width: 1500px;
+  height: 150px;
+  position: absolute;
+}
+.lagudan-lirik-image39 {
+  top: 48px;
+  left: 68px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.lagudan-lirik-image41 {
+  top: 293px;
+  left: 51px;
+  width: 175px;
+  height: 171px;
+  position: absolute;
+}
+.lagudan-lirik-text {
+  top: 324px;
+  left: 236px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.lagudan-lirik-text001 {
+  font-weight: 700;
+}
+.lagudan-lirik-text007 {
+  font-weight: 400;
+}
+.lagudan-lirik-text014 {
+  top: 500px;
+  left: 44px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.lagudan-lirik-text016 {
+  top: 545px;
+  left: 44px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.lagudan-lirik-text018 {
+  top: 590px;
+  left: 44px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.lagudan-lirik-text020 {
+  top: 635px;
+  left: 44px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.lagudan-lirik-text022 {
+  top: 680px;
+  left: 20px;
+  color: rgba(255, 255, 255, 1);
+  width: 311px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.lagudan-lirik-line15 {
+  top: 173px;
+  left: 0px;
+  width: 1440px;
+  height: 1px;
+  position: absolute;
+}
+.lagudan-lirik-line16 {
+  top: 243px;
+  left: 0px;
+  width: 1440px;
+  height: 1px;
+  position: absolute;
+}
+.lagudan-lirik-text027 {
+  top: 190px;
+  left: 675px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Bold;
+  text-align: justified;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.lagudan-lirik-line20 {
+  top: 752px;
+  left: 0px;
+  width: 1440px;
+  height: 1px;
+  position: absolute;
+}
+.lagudan-lirik-line19 {
+  top: 800px;
+  left: 0px;
+  width: 1440px;
+  height: 1px;
+  position: absolute;
+}
+.lagudan-lirik-text029 {
+  top: 753px;
+  left: 679px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.lagudan-lirik-group6 {
+  top: 1002px;
+  left: 115px;
+  width: 706px;
+  height: 4680px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.lagudan-lirik-text031 {
+  color: rgba(255, 255, 255, 1);
+  width: 706px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.lagudan-lirik-text234 {
+  top: 855px;
+  left: 115px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 50px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.lagudan-lirik-image42 {
+  top: 868px;
+  left: 988px;
+  width: 400px;
+  height: 391px;
+  position: absolute;
+}
+.lagudan-lirik-text236 {
+  top: 1327px;
+  left: 963px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 50px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.lagudan-lirik-text238 {
+  top: 1463px;
+  left: 1032px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.lagudan-lirik-text240 {
+  top: 1508px;
+  left: 1032px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.lagudan-lirik-text242 {
+  top: 1553px;
+  left: 1032px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.lagudan-lirik-text244 {
+  top: 1598px;
+  left: 1032px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.lagudan-lirik-text246 {
+  top: 1643px;
+  left: 1010px;
+  color: rgba(255, 255, 255, 1);
+  width: 311px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.lagudan-lirik-logo1 {
+  top: 26px;
+  left: 645px;
+  width: 150px;
+  height: 100px;
+  position: absolute;
+}

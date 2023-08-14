@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lirik</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html,
+    body {
+        width: 100%;
+        height: 100vh;
+        /* overflow-x: hidden; */
+    }
+
+    body {
+        background-color: black;
+    }
+
+    header {
+        background-color: red;
+    }
+
+    header img {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        position: relative;
+        left: 1800px;
+        display: inline-block;
+    }
+
+    .logo1 {
+        /* position: relative;
+    left: 0px; */
+        width: 100px;
+        height: 70px;
+        position: relative;
+        left: 660px;
+        padding-bottom: 10px;
+        top: 7px;
+    }
+
+    .burger1 {
+        position: relative;
+        left: 10px;
+        width: 50px;
+        height: 50px;
+        top: -15px;
+    }
+
+    .title {
+        position: relative;
+        width: 100%;
+        height: 40px;
+        color: white;
+        text-align: center;
+        top: 0px;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .Curtaincall2 {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .Theeminemshowex {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .SideB {
+        position: relative;
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .SideA {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .Kamikaze {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .Revival {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .TheMMLP2 {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .Recovery1 {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .Recovery2 {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .Relapserefill {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .Relapse {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .Encoredelux {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .TheMMLP1 {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .TheSSLP1 {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .TheSSLP2 {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .Infinite {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .grid {
+        position: relative;
+        display: grid;
+        gap: 100px;
+        grid-template-columns: repeat(3, 150px);
+        grid-auto-rows: minmax(50px, auto);
+        top: 50px;
+        left: 50px;
+        flex: 2;
+        padding-right: 1rem;
+        border-right: 1px solid #ccc;
+    }
+
+
+    .grid p {
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+
+    .lirik-kanan {
+        position: relative;
+        flex: 1;
+        padding-left: 25rem;
+        color: white;
+        font-size: large;
+    }
+
+    .judul-lirik {
+        position: relative;
+        font-size: 30px;
+        right: 250px;
+
+        top: 40px;
+        margin-bottom: 20px;
+        color: rgb(255, 0, 0);
+    }
+
+    .isi-lyric {
+        background-color: red;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        left: 20%;
+    }
+
+    .isi-lyric {
+        overflow-y: scroll;
+        /* overflow-x: hidden; */
+        max-height: 1500px;
+
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+
+    }
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+    }
+
+    .logo1 {
+        position: relative;
+        width: 70px;
+        height: 70px;
+        padding-bottom: 10px;
+        left: 735px;
+        top: 7px;
+    }
+
+    .hamburger {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        right: 0;
+        margin: auto;
+
+        text-align: left;
+    }
+
+    .yt {
+        position: absolute;
+        top: 1800px;
+        left: 20px;
+        width: 50px;
+    }
+
+    .spotify {
+        position: absolute;
+        top: 1805px;
+        left: 100px;
+        width: 40px;
+    }
+
+    .apel {
+        position: absolute;
+        top: 1800px;
+        left: 170px;
+        width: 45px;
+    }
+
+    .twt {
+        position: absolute;
+        top: 1800px;
+        right: 180px;
+        width: 45px;
+    }
+
+    .fb {
+        position: absolute;
+        top: 1800px;
+        right: 100px;
+        width: 45px;
+    }
+
+    .ig {
+        position: absolute;
+        top: 1800px;
+        right: 20px;
+        width: 45px;
+    }
+
+    .bot-nav {
+
+        width: 100%;
+        height: 20%;
+        position: relative;
+        align-items: center;
+        text-align: center;
+        top: 70px;
+        color: red;
+    }
+
+    .bot-nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .bot-nav ul li {
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="hamburger" onclick="openNav()">
+            <span style="font-size: 30px;">&#9776;</span>
+        </div>
+        <img class="logo1" src="/seti-html/assets/logo1.png" alt="" />
+
+    </header>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="biography.html">Biography</a>
+        <a href="albumnew.html">Album</a>
+        <a href="Music.html">Music</a>
+        <a href="Lirik.html">Lyric</a>
+        <a href="store.html">Store</a>
+        <a href="Contact.html">Contact</a>
+
+    </div>
+    <div class="title">
+        <h1>Lyrics</h1>
+    </div>
+    <div class="main">
+        <section class="grid">
+            <figcaption>
+                <img class="Curtaincall2" src="seti-html/assets/Curtaincall2.png" alt="">
+                <caption>
+                    <p>Curtaincall 2</p>
+                </caption>
+            </figcaption>
+
+            <figcaption>
+                <img class="Theeminemshowex" src="seti-html/assets/Theminemshowex.png" alt="">
+                <caption>
+                    <p>Eminem Show Expanded</p>
+                </caption>
+            </figcaption>
+
+            <figcaption>
+                <img class="SideB" src="seti-html/assets/SideB.png" alt="">
+                <caption>
+                    <p>Music To The Murdered Side B</p>
+                </caption>
+            </figcaption>
+
+            <figcaption>
+                <img class="SideA" src="seti-html/assets/SideA.png" alt="">
+                <caption>
+                    <p>Music To The Murdered Side A</p>
+                </caption>
+            </figcaption>
+
+            <figcaption>
+                <img class="Kamikaze" src="seti-html/assets/Kamikaze.png" alt="">
+                <caption>
+                    <p>Kamikaze</p>
+                </caption>
+            </figcaption>
+
+            <figcaption>
+                <img class="Revival" src="seti-html/assets/Revival.png" alt="">
+                <caption>
+                    <p>Revival</p>
+                </caption>
+            </figcaption>
+
+            <figcaption>
+                <img class="TheMMLP2" src="seti-html/assets/TheMMLP2.png" alt="">
+                <caption>
+                    <p>Marshall Mathers LP 2</p>
+                </caption>
+            </figcaption>
+
+            <figcaption>
+                <img class="Recovery1" src="seti-html/assets/Recovery1.png" alt="">
+                <caption>
+                    <p>Recovery 1</p>
+                </caption>
+            </figcaption>
+
+            <figcaption>
+                <img class="Recovery2" src="seti-html/assets/Recovery2.png" alt="">
+                <caption>
+                    <p>Recovery 2</p>
+                </caption>
+            </figcaption>
+
+            <figcaption>
+                <img class="Relapserefill" src="seti-html/assets/Relapserefill.png" alt="">
+                <caption>
+                    <p>Relapse Refill</p>
+                </caption>
+            </figcaption>
+
+            <figcaption>
+                <img class="Relapse" src="seti-html/assets/Relapse.png" alt="">
+                <caption>
+                    <p>Relapse</p>
+                </caption>
+            </figcaption>
+
+            <figcaption>
+                <img class="Encoredelux" src="seti-html/assets/Encoredelux.png" alt="">
+                <caption>
+                    <p>Encore Deluxe</p>
+                </caption>
+            </figcaption>
+
+            <figcaption>
+                <img class="TheMMLP1" src="seti-html/assets/TheMMLP1.png" alt="">
+                <caption>
+                    <p>Marshall Mathers LP 2</p>
+                </caption>
+            </figcaption>
+
+            <figcaption>
+                <img class="TheSSLP2" src="seti-html/assets/TheSSLP2.png" alt="">
+                <caption>
+                    <p>Slim Shady LP 2</p>
+                </caption>
+            </figcaption>
+
+            <figcaption>
+                <img class="TheSSLP1" src="seti-html/assets/TheSSLP1.png" alt="">
+                <caption>
+                    <p>Slim Shady LP 1</p>
+                </caption>
+            </figcaption>
+
+            <figcaption>
+                <img class="Infinite" src="seti-html/assets/Infinite.png" alt="">
+                <caption>
+                    <p>Infinite</p>
+                </caption>
+            </figcaption>
+        </section>
+        <aside class="lirik-kanan">
+            <div class="dalamlirik">
+                <span class="judul-lirik">Judul Lagu</span>
+                <p class="isi-lyric">
+
+                </p>
+            </div>
+        </aside>
+    </div>
+
+
+</body>
+<footer>
+    <div class="content">
+        <div class="bg-content"></div>
+
+        <img class="apel" src="/seti-html/assets/apel.png" alt="" />
+        <img class="yt" src="/seti-html/assets/yt.png" alt="" />
+        <img class="spotify" src="/seti-html/assets/spotify2.png" alt="" />
+        <img class="twt" src="/seti-html/assets/twt.png" alt="" />
+        <img class="ig" src="/seti-html/assets/ig.png" alt="" />
+        <img class="fb" src="seti-html/assets/fb.png" />
+        <div class="bot-nav">
+            <nav>
+                <ul>Copyright Shady Record</ul>
+                <ul>Privacy Policy</ul>
+                <ul>Terms & Conditions</ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+<script>
+    const songsData = {
+        "Curtaincall2": {
+            title: "Lucky You",
+            lyrics: `Whoa, Joyner, Joyner, yeah, yeah, yeah
+            Yeah, I done did a lot of things in my day, I admit it
+            I don't take back what I say, if I said it then I meant it
+            All my life I want a Grammy but I'll prolly never get it
+            I ain't never had no trophy or no motherfuckin' ribbon
+            Fuck the system, I'm that nigga, bend the law, cut the rules
+            I'm about to risk it all, I ain't got too much to lose
+            Y'all been eatin' long enough, it's my turn to cut the food
+            Pass the plate! Where my drink? This my day, lucky you
+            Fuck you too, woah!
+            Y'all gotta move, y'all gotta move, y'all gotta move
+            Give me some room, give me some room, give me the juice
+            Hop out the coupe, hop out the coupe, hop out and shoot
+            Y'all gotta move, y'all gotta move, give me the juice
+            Back on my bullshit, my back to the wall
+            Turn my back on you all and you finished
+            Back to these bullets, it's back to the job
+            Pull my MAC out and all of you runnin'
+            Back on my hood shit, it's back to the pushin'
+            These packs and I'm actually pumpin'
+            Can't fuck with you rappers, you practically suckin'
+            You mighta went platinum but that don't mean nothin'
+            I'm actually buzzin' this time
+            Straight out the kitchen, I told them the oven is mine
+            I do not fuck with you guys
+            If I don't kill you, just know you gon' suffer this time
+            I ain't no gangster but I got some bangers
+            Some chains and some blades and a couple of knives
+            Choppers and jammies, a partridge, a pear tree
+            My twelve days of Christmas was nothin' but lies
+            I, run at you hard like a sumo (sumo)
+            They say I talk like a chulo (chulo)
+            I live in Mars, I'm not Bruno
+            Bitch I'm a dog, call me Cujo
+            You play your cards, I reverse on you all
+            And I might just draw four like a Uno
+            Cállate boca mejor maricón little puto, and all of you culo
+            They debated the level, I've been to ghetto to ghetto
+            Looking for something I prolly could never find now
+            Shit get real up until the beef die down
+            In truth a nigga just really want me tied down
+            I've been alone and I never needed nobody
+            Just only me and my shotty, I'll tell these niggas to lie down
+            Keep all the money, I never wanted the lifestyle
+            I just pray to God that my son'll be alright now
+            I said ain't no love for the other side
+            Or anyone who ever want smoke (Joyner)
+            When I die I'm goin' out as the underdog who never lost hope (yeah)
+            You in the wrong cab down the wrong path
+            Nigga wrong way, wrong road
+            Snakes in the grass, tryna slither fast
+            I just bought a fuckin' lawn mower
+            I done said a lotta things in my day, I admit it
+            This is payback in a way, I regret it that I did it
+            I done won a couple Grammys, but I sold my soul to get 'em
+            Wasn't in it for the trophies, just the fuckin' recognition
+            Fuck's the difference?
+            I'm that cracker, bend the law, fuck the rules
+            Man I used to risk it all, now I got too much to lose
+            I been eatin' long enough, man my stomach should be full
+            I just ate, lick the plate, my buffet, lucky me
+            Fuck you think? (Woo!)
+            I got a couple of mansions
+            Still I don't have any manners
+            You got a couple of ghostwriters
+            But to these kids, it don't actually matter
+            They're askin' me "What the fuck happened to hip-hop?"
+            I said "I don't have any answers"
+            'Cause I took an L when I dropped my last album
+            It hurt me like hell but I'm back on these rappers
+            And actually coming from humble beginnings
+            I'm somewhat uncomfortable winning
+            I wish I could say "What a wonderful feeling!"
+            We're on the upswing like we're punchin' the ceiling
+            But nothin' is feeling like anyone has any fuckin' ability
+            To even stick to a subject, it's killin' me, the inability to pin humility
+            Hatata batata, why don't we make a bunch of fuckin'
+            Songs about nothin' and mumble!
+            And fuck it, I'm goin' for the jugular
+            Shit is a circus, you clowns that are comin' up
+            Don't give an ounce of a motherfuck
+            About the ones that were here before you that made rap, let's recap
+            Way back, MC's that wreak havoc on tape decks
+            ADATs, where the G Raps and Kanes at?
+            We need 3 Stacks ASAP, and bring Masta Ace back
+            Because half of these rappers have brain damage
+            All the lean rappin', face tats, syruped out like tree sap
+            I don't hate trap, and I don't wanna seem mad
+            But in fact, where the old me at? The same cat that would take that
+            Feedback and aim back, I need that
+            But I think it's inevitable
+            They know what button to press or what lever to pull
+            To get me the snap though (lil' bitch)
+            And if I pay it attention I'm probably makin' it bigger
+            But you've been takin' the dicks
+            In the fuckin' back, ho (get it?)
+            On the brink, any minute
+            Got me thinkin' of finishin' everything
+            With acetaminophen and reapin' the benefits
+            I'm asleep at the wheel again
+            As I peak into thinkin' about an evil intent
+            Of another beat, I'ma kill again
+            'Cause even if I gotta end up eatin' a pill again
+            Even ketamine or methamphetamine
+            With the minithin, it better be at least 70 to 300 milligram
+            And I might as well 'cause I'ma end up bein' a villain again
+            Levels to this shit I got an elevator
+            You could never say to me I'm not a fuckin' record breaker
+            I sound like a broken record every time I break a record
+            Nobody could ever take away the legacy I made, I never cater
+            Motherfucker now I got a right to be this way
+            I got spite inside my DNA
+            But I wrote 'til the wheels fall off, I'm workin' tirelessly, ayy
+            It's the moment y'all been waitin' for
+            Like California wishin' rain would pour
+            And that drought y'all have been prayin' for
+            My downfall from the 8 Mile to the Southpaw
+            Still the same Marshall that outlaw
+            That they say as a writer might've fell off
+            I'm back on that bull like the cowboy
+            So y'all gotta move (yeah), y'all gotta move (yeah), y'all gotta move
+            Give me some room, give me some room, give me the juice
+            Hop out the coupe, hop out the coupe, how 'bout I shoot?
+            Y'all gotta move, y'all gotta move, give me the juice`
+        },
+        "Theeminemshowex": {
+            title: "Cleaning Out My Closet",
+            lyrics: `[Intro]
+            Where's my snare?
+            I have no snare in my headphones - there you go
+            Yeah.. yo, yo
+
+            [Eminem]
+            Have you ever been hated or discriminated against?
+            I have; I've been protested and demonstrated against
+            Picket signs for my wicked rhymes, look at the times
+            Sick as the mind of the motherfuckin kid that's behind
+            all this commotion emotions run deep as ocean's explodin
+            Tempers flarin from parents just blow 'em off and keep goin
+            Not takin nothin from no one give 'em hell long as I'm breathin
+            Keep kickin ass in the mornin and takin names in the evenin
+            Leave 'em with a taste as sour as vinegar in they mouth
+            See they can trigger me, but they'll never figure me out
+            Look at me now; I bet ya probably sick of me now ain't you momma?
+            I'ma make you look so ridiculous now
+
+            [Chorus: Eminem]
+            I'm sorry momma!
+            I never meant to hurt you!
+            I never meant to make you cry; but tonight
+            I'm cleanin out my closet (one more time)
+            I said I'm sorry momma!
+            I never meant to hurt you!
+            I never meant to make you cry; but tonight
+            I'm cleanin out my closet
+
+            [Eminem]
+            Ha! I got some skeletons in my closet
+            and I don't know if no one knows it
+            So before they thrown me inside my coffin and close it
+            I'ma expose it; I'll take you back to '73
+            before I ever had a multi-platinum sellin CD
+            I was a baby, maybe I was just a couple of months
+            My faggot father must have had his panties up in a bunch
+            cause he split, I wonder if he even kissed me goodbye
+            No I don't on second thought I just fuckin wished he would die
+            I look at Hailie, and I couldn't picture leavin her side
+            Even if I hated Kim, I grit my teeth and I'd try
+            to make it work with her at least for Hailie's sake
+            I maybe made some mistakes
+            but I'm only human, but I'm man enough to face them today
+            What I did was stupid, no doubt it was dumb
+            But the smartest shit I did was take the bullets outta that gun
+            Cuz I'da killed him; shit I woulda shot Kim and them both
+            It's my life, I'd like to welcome y'all to "The Eminem Show"
+
+            [Chorus]
+
+            [Eminem]
+            Now I would never diss my own momma just to get recognition
+            Take a second to listen for who you think this record is dissin
+            But put yourself in my position; just try to envision
+            witnessin your momma poppin prescription pills in the kitchen
+            Bitchin that someone's always goin throuh her purse and shit's missin
+            Goin through public housin systems, victim of Munchausen's Syndrome
+            My whole life I was made to believe I was sick when I wasn't
+            'til I grew up, now I blew up, it makes you sick to ya stomach
+            doesn't it? Wasn't it the reason you made that CD for me Ma?
+            So you could try to justify the way you treated me Ma?
+            But guess what? You're gettin older now and it's cold when your lonely
+            And Nathan's growin up so quick he's gonna know that your phony
+            And Hailie's gettin so big now; you should see her, she's beautiful
+            But you'll never see her - she won't even be at your funeral!
+            See what hurts me the most is you won't admit you was wrong
+            Bitch do your song - keep tellin yourself that you was a mom!
+            But how dare you try to take what you didn't help me to get
+            You selfish bitch; I hope you fuckin burn in hell for this shit
+            Remember when Ronnie died and you said you wished it was me?
+            Well guess what, I +AM+ dead - dead to you as can be!
+
+            [Chorus] - repeat 2X`
+        },
+        "SideB": {
+            title: "Godzilla",
+            lyrics: `I can swallow a bottle of alcohol and I'll feel like Godzilla
+            Better hit the deck like the card dealer
+            My whole squad's in here, walking around the party
+            A cross between a zombie apocalypse and big Bobby "The
+            Brain" Heenan which is probably the
+            Same reason I wrestle with mania
+            Shady's in this bitch, I'm posse'd up
+            Consider it to cross me a costly mistake
+            If they sleepin' on me, the hoes better get insomnia
+            Adhd, Hydroxycut
+            Pass the Courvoisi' (ayy, ayy)
+            In AA with an AK, melee, finna set it like a playdate
+            Better vacate, retreat like a vacay, mayday (ayy)
+            This beat is cray-cray, Ray J, H-A-H-A-H-A
+            Laughing all the way to the bank, I spray flames
+            They cannot tame or placate the
+            Monster (ayy)
+            You get in my way, I'ma feed you to the monster (yeah)
+            I'm normal during the day, but at night, turn to a monster (yeah)
+            When the moon shines like Ice Road Truckers
+            I look like a villain outta those blockbusters
+            Godzilla, fire spitter, monster
+            Blood on the dance floor, and on the Louis V carpet
+            Fire, Godzilla, fire, monster
+            Blood on the dance floor, and on the Louis V carpet
+            I'm just a product of Slick Rick and Onyx, told 'em, "Lick the balls"
+            Had 'em just appalled at so many things that pissed 'em off
+            It's impossible to list 'em all
+            And in the midst of all this
+            I'm in a mental hospital with a crystal ball
+            Tryna see, will I still be like this tomorrow?
+            Risperdal, voices whisper
+            My fist is balled back up against the wall, pencil drawn
+            This is just the song to go ballistic on
+            You just pulled a pistol on the guy with the missile launcher
+            I'm just a Loch Ness, the mythological
+            Quick to tell a bitch screw off like a fifth of Vodka
+            When you twist the top of the bottle, I'm a
+            Monster (ayy)
+            You get in my way, I'ma feed you to the monster (yeah)
+            I'm normal during the day, but at night, turn to a monster (yeah)
+            When the moon shines like Ice Road Truckers
+            I look like a villain outta those blockbusters
+            Godzilla, fire spitter, monster
+            Blood on the dance floor, and on the Louis V carpet
+            Fire, Godzilla, fire, monster
+            Blood on the dance floor, and on the Louis V carpet
+            If you never gave a damn, raise your hand
+            'Cause I'm about to set trip, vacation plans
+            I'm on point like my index is, so all you will ever get is
+            The motherfuckin' finger (finger), prostate exam ('xam)
+            How can I have all these fans and perspire?
+            Like a liar's pants, I'm on fire
+            And I got no plans to retire and I'm still the man you admire
+            These chicks are spazzin' out, I only get more handsome and flier
+            I got 'em passin' out like what you do when you hand someone flyers
+            And what goes around comes around just like the blades on a chainsaw
+            'Cause I caught the flap of my dollar stack right off the bat like a baseball
+            Like Kid Ink, bitch, I got them racks with so much ease that they call me Diddy
+            'Cause I make bands and I call getting cheese a cakewalk (cheesecake) yeah
+            Bitch, I'm a player, I'm too motherfuckin' stingy for Cher
+            Won't even lend you an ear, ain't even pretending to care
+            But I tell a bitch I'll marry her if she'll bury her
+            Face on my genital area, the original Richard Ramirez
+            Christian Rivera, 'cause my lyrics never sit well
+            So they wanna give me the chair
+            Like a paraplegic, and it's scary, call it Harry Caray
+            'Cause every Tom and Dick and Harry carry a Merriam motherfuckin' dictionary
+            On 'em swearing up and down, they can't spit, this shit's hilarious
+            It's time to put these bitches in the obituary column
+            We wouldn't see eye to eye with a staring problem
+            Get the shaft like a steering column (monster)
+            Trigger happy, pack heat, but it's black ink
+            Evil half of the Bad Meets Evil
+            That means take a back seat
+            Take it back to Fat Petes with a maxi, single
+            Look at my rap sheet, what attracts these people
+            Is my gangster, bitch, like Apache with a catchy jingle
+            I stack chips, you barely got a half-eaten Cheeto
+            Fill 'em with the venom and eliminate 'em
+            Other words, I Minute Maid 'em
+            I don't wanna hurt 'em, but I did 'em in a fit of rage
+            I'm murderin' again, nobody will evade him
+            Finna kill 'em and dump all the fuckin' bodies in the lake
+            Obliterating everything, incinerate and renegade 'em
+            And I make anybody who want it with the pen afraid
+            But don't nobody want it, but they're gonna get it anyway
+            'Cause I'm beginnin' to feel like I'm mentally ill
+            I'm Atilla, kill or be killed, I'm a killer bee, the vanilla gorilla
+            You're bringin' the killer within me out of me
+            You don't want to be the enemy of the demon who went in me
+            Or being the recievin' end of me, what stupidity it'd be
+            Every bit of me is the epitome of a spitter
+            When I'm in the vicinity, motherfucker, you better duck
+            Or you finna be dead the minute you run into me
+            A hunnid percent of you is a fifth of a percent of me
+            I'm 'bout to fuckin' finish you bitch, I'm unfadable
+            You wanna battle, I'm available, I'm blowin' up like an inflatable
+            I'm undebatable, I'm unavoidable, I'm unevadable
+            I'm on the toilet bowl, I got a trailer full of money and I'm paid in full
+            I'm not afraid to pull the
+            Man, stop
+            Look what I'm plannin', haha`
+        },
+        // Tambahkan data untuk album lainnya...
+    };
+
+    function changeSong(album) {
+        const songData = songsData[album];
+        const judulLaguElement = document.querySelector(".judul-lirik");
+        const lirikLaguElement = document.querySelector(".isi-lyric");
+
+        judulLaguElement.innerHTML = songData.title;
+        lirikLaguElement.innerHTML = songData.lyrics.replace(/\n/g, '<br>');
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const albumImages = document.querySelectorAll(".grid img");
+        albumImages.forEach(image => {
+            image.addEventListener("click", () => {
+                const albumName = image.classList[0];
+                changeSong(albumName);
+            });
+        });
+    });
+
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+
+</html>

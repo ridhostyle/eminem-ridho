@@ -1,0 +1,531 @@
+.album-container {
+  width: 100%;
+  display: flex;
+  overflow: none;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.album-album {
+  width: 100%;
+  height: 1520px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 1);
+}
+.album-text {
+  top: 454px;
+  left: 86px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-image8 {
+  top: 260px;
+  left: 269px;
+  width: 175px;
+  height: 171px;
+  position: absolute;
+}
+.album-text02 {
+  top: 451px;
+  left: 275px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-text04 {
+  top: 451px;
+  left: 500px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-image9 {
+  top: 256px;
+  left: 510px;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+}
+.album-image10 {
+  top: 260px;
+  left: 751px;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+}
+.album-text09 {
+  top: 451px;
+  left: 779px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-image11 {
+  top: 260px;
+  left: 992px;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+}
+.album-text14 {
+  top: 451px;
+  left: 998px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-image12 {
+  top: 260px;
+  left: 1233px;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+}
+.album-text16 {
+  top: 447px;
+  left: 1251px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-image13 {
+  top: 536px;
+  left: 30px;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+}
+.album-image7 {
+  top: 260px;
+  left: 30px;
+  width: 175px;
+  height: 173px;
+  position: absolute;
+}
+.album-text18 {
+  top: 727px;
+  left: 43px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-image14 {
+  top: 536px;
+  left: 269px;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+}
+.album-image15 {
+  top: 536px;
+  left: 510px;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+}
+.album-text23 {
+  top: 727px;
+  left: 321px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-text25 {
+  top: 727px;
+  left: 560px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-image16 {
+  top: 536px;
+  left: 751px;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+}
+.album-text30 {
+  top: 727px;
+  left: 775px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-image17 {
+  top: 536px;
+  left: 992px;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+}
+.album-image18 {
+  top: 536px;
+  left: 1233px;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+}
+.album-text32 {
+  top: 727px;
+  left: 1251px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-text37 {
+  top: 727px;
+  left: 1038px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-image19 {
+  top: 831px;
+  left: 43px;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+}
+.album-text39 {
+  top: 1027px;
+  left: 72px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-image20 {
+  top: 831px;
+  left: 269px;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+}
+.album-text46 {
+  top: 1027px;
+  left: 325px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-image21 {
+  top: 831px;
+  left: 510px;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+}
+.album-text48 {
+  top: 1031px;
+  left: 555px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-image22 {
+  top: 831px;
+  left: 751px;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+}
+.album-text50 {
+  top: 1027px;
+  left: 782px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-image23 {
+  top: 831px;
+  left: 992px;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+}
+.album-text55 {
+  top: 1027px;
+  left: 1020px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-image24 {
+  top: 831px;
+  left: 1233px;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+}
+.album-text64 {
+  top: 1027px;
+  left: 1239px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-image25 {
+  top: 1153px;
+  left: 44px;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+}
+.album-text69 {
+  top: 1349px;
+  left: 72px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-image41 {
+  top: 1431px;
+  left: 1358px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.album-image42 {
+  top: 1431px;
+  left: 1294px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.album-image43 {
+  top: 1431px;
+  left: 1230px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.album-image44 {
+  top: 1431px;
+  left: 1166px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.album-image45 {
+  top: 1431px;
+  left: 1102px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.album-image40 {
+  top: 1431px;
+  left: 1038px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.album-line13 {
+  top: 172px;
+  left: -1px;
+  width: 1440px;
+  height: 1px;
+  position: absolute;
+}
+.album-text71 {
+  top: 180px;
+  left: 672px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.album-line14 {
+  top: 225px;
+  left: 0px;
+  width: 1440px;
+  height: 1px;
+  position: absolute;
+}
+.album-rectangle2 {
+  top: 0px;
+  left: 0px;
+  width: 1500px;
+  height: 150px;
+  position: absolute;
+}
+.album-image39 {
+  top: 45px;
+  left: 43px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.album-logo1 {
+  top: 25px;
+  left: 645px;
+  width: 150px;
+  height: 100px;
+  position: absolute;
+}
